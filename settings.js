@@ -28,8 +28,8 @@ global.eror = '⚠️ Error de comando!'
 //Links imagen
 global.gif = 'https://www.udrop.com/file/Mf0N/images_upscayl_16x_realesrgan-x4plus-anime.png'
 global.thumb = 'https://www.udrop.com/file/Mf0P/e4f937ec7038930d3c92a35a2d433840_upscayl_6x_realesrgan-x4plus-anime.png'
-global.icon = 'https://i.postimg.cc/PqJK5sHv/tumblr-81dacf9309c25870686818ac6922667d-f16a5a6e-250-upscayl-12x-realesrgan-x4plus-anime.png'
-global.access_denied = 'https://i.postimg.cc/V6yMQ3k8/9baa62b8c23ec8d7c622038ce13d0519.jpg'
+global.icon = 'https://www.udrop.com/file/Mf0T/tumblr_81dacf9309c25870686818ac6922667d_f16a5a6e_250_upscayl_12x_realesrgan-x4plus-anime.png'
+global.access_denied = 'https://www.udrop.com/file/Mf0T/tumblr_81dacf9309c25870686818ac6922667d_f16a5a6e_250_upscayl_12x_realesrgan-x4plus-anime.png'
 
 //Links
 global.sgc = 'https://chat.whatsapp.com'
