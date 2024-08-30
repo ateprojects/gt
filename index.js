@@ -19,7 +19,7 @@ colors: ['green'],
 background: 'transparent',
 letterSpacing: '0'
 })
-CFonts.say('By: OfcDiego', {
+CFonts.say('By: Rudeos', {
 font: 'console',
 align: 'center',
 colors: ['white'],
