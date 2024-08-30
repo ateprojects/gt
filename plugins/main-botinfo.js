@@ -5,7 +5,7 @@ const _uptime = process.uptime() * 1000
 const uptimex = clockString(_uptime)
 const nomor = conn.user.jid
 const name = conn.getName(conn.user.jid, 'image')
-const pp = await conn.profilePictureUrl(conn.user.jid, 'image').catch((_) => "https://i.postimg.cc/PqJK5sHv/tumblr-81dacf9309c25870686818ac6922667d-f16a5a6e-250-upscayl-12x-realesrgan-x4plus-anime.png")
+const pp = await conn.profilePictureUrl(conn.user.jid, 'image').catch((_) => "https://www.udrop.com/file/Mf0T/tumblr_81dacf9309c25870686818ac6922667d_f16a5a6e_250_upscayl_12x_realesrgan-x4plus-anime.png")
 const fkontak = {key: {participant: "0@s.whatsapp.net",remoteJid: "status@broadcast",fromMe: false,id: "Halo"},message: {contactMessage: {vcard: `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:Bot\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}},participant: "0@s.whatsapp.net"}
 const text = 'SOFI 🍟'
 const blurRadius = 90
