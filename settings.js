@@ -1,12 +1,12 @@
 //Creadores
 global.owner = [
-['573012482597', '👑 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 👑', true],
-['573218138672'],
-['573218138672']]
+['50240227531', '👑 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 👑', true],
+['0000000000'],
+['0000000000']]
 
-global.numberbot = '573218138672'
-global.nameowner = 'OfcDiego'
-global.nomorown = '573012482597'
+global.numberbot = '50240227531'
+global.nameowner = 'ATE'
+global.nomorown = '50240227531'
 
 global.APIs = {}
 global.APIKeys = {}
@@ -14,20 +14,20 @@ global.lolhuman = ''
 global.ocrapi = '314b4b8b2d88957'
 
 //NombreBot
-global.namebot = 'SakuraBotLite-MD 🚩'
-global.title = 'By: Oficial Diego 🌟'
-global.packname = 'Super SakuraBot 🌸'
-global.author = 'By: DiegoOfc ✨️'
+global.namebot = 'SOFIA🚩'
+global.title = 'By: ATE 🌟'
+global.packname = 'Super SOFI 🌸'
+global.author = 'By: ATE ✨️'
 global.wm = 'WhatsApp Bot ⭐️'
-global.done = '⭐️ H E C H O\nSuper SakuraBot 🍟'
+global.done = '⭐️ H E C H O\nSuper SOFI 🍟'
 
 //Msg
 global.wait = '🚀 Espere un momento, soy lenta....'
 global.eror = '⚠️ Error de comando!'
 
 //Links imagen
-global.gif = 'https://qu.ax/ORNj.jpg'
-global.thumb = 'https://qu.ax/sCjp.jpg'
+global.gif = 'https://www.udrop.com/file/Mf0N/images_upscayl_16x_realesrgan-x4plus-anime.png'
+global.thumb = 'https://www.udrop.com/file/Mf0P/e4f937ec7038930d3c92a35a2d433840_upscayl_6x_realesrgan-x4plus-anime.png'
 global.icon = 'https://qu.ax/wics.jpg'
 global.access_denied = 'https://qu.ax/magu.jpg'
 
