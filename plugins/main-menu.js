@@ -60,14 +60,14 @@ setTimeout(resolve, 1000)
 }
 let mpt = clockString(_mpt)
 let name = m.pushName || conn.getName(m.sender)
-let list = `Hola @${m.sender.split("@")[0]} 👋️ *Soy SakuraBot*
+let list = `Hola @${m.sender.split("@")[0]} 👋️ *Soy sofia*
 ¿En qué puedo ayudarte?
 
 *✧ Lista de menús ✧*
  ✎ ${usedPrefix + command} all
  ✎ ${usedPrefix + command} ${daftarTag}
 `
-const pp = await conn.profilePictureUrl(m.sender, 'image').catch((_) => 'https://tinyurl.com/28p4lowz')
+const pp = await conn.profilePictureUrl(m.sender, 'image').catch((_) => 'https://i.postimg.cc/PqJK5sHv/tumblr-81dacf9309c25870686818ac6922667d-f16a5a6e-250-upscayl-12x-realesrgan-x4plus-anime.png')
 
 conn.sendMessage(m.chat, { text: list, contextInfo: { mentionedJid: [m.sender], externalAdReply: { title: namebot, body: wm, thumbnailUrl: thumb, sourceUrl: sourceurl, mediaType: 1, renderLargerThumbnail: true }}}, { quoted: m })
 
@@ -76,7 +76,7 @@ const daftarHelp = tagHelpMapping[perintah].map((helpItem, index) => {
 return `.${helpItem}`
 }).join('\n ✎ '  + '')
 const list2 =  `✧ *MENU ${perintah.toUpperCase()}* ✧\n\n ✎ ${daftarHelp}`
-const pp = await conn.profilePictureUrl(m.sender, 'image').catch((_) => 'https://tinyurl.com/28p4lowz')
+const pp = await conn.profilePictureUrl(m.sender, 'image').catch((_) => 'https://i.postimg.cc/PqJK5sHv/tumblr-81dacf9309c25870686818ac6922667d-f16a5a6e-250-upscayl-12x-realesrgan-x4plus-anime.png')
 
 conn.sendMessage(m.chat, { text: list2, contextInfo: { mentionedJid: [m.sender], externalAdReply: { title: namebot, body: wm, thumbnailUrl: thumb, sourceUrl: sourceurl, mediaType: 1, renderLargerThumbnail: true }}}, { quoted: m })
 } else if (perintah === 'all') {
@@ -101,7 +101,7 @@ let all = `
 _I am Curiosity, How can I assist you today?_\n\n`
     + allTagsAndHelp
 
-const pp = await conn.profilePictureUrl(m.sender, 'image').catch((_) => 'https://tinyurl.com/28p4lowz')
+const pp = await conn.profilePictureUrl(m.sender, 'image').catch((_) => 'https://i.postimg.cc/PqJK5sHv/tumblr-81dacf9309c25870686818ac6922667d-f16a5a6e-250-upscayl-12x-realesrgan-x4plus-anime.png')
 
 conn.sendMessage(m.chat, { text: all, contextInfo: { mentionedJid: [m.sender], externalAdReply: { title: namebot, body: wm, thumbnailUrl: thumb, sourceUrl: sourceurl, mediaType: 1, renderLargerThumbnail: true },}}, { quoted: m })
 } else {
