@@ -64,7 +64,7 @@ let list = `Hola @${m.sender.split("@")[0]} 👋️ *Soy sofia*
 ¿En qué puedo ayudarte?
 
 *✧ Lista de menús ✧*
- ✎ ${usedPrefix + command} all
+ ✎ ${usedPrefix + command} ver Todos
  ✎ ${usedPrefix + command} ${daftarTag}
 `
 const pp = await conn.profilePictureUrl(m.sender, 'image').catch((_) => 'https://www.udrop.com/file/Mf0T/tumblr_81dacf9309c25870686818ac6922667d_f16a5a6e_250_upscayl_12x_realesrgan-x4plus-anime.png')
